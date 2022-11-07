@@ -19,7 +19,7 @@
             
          
                 <label style="color: blue;"   >enter name</label>
-                <input type="text" name="firstname">
+                <input type="text" name="firstname" minlength="5" maxlength="15"> 
                 <div>
                     <br>
                 <label style="color: blue;"   >enter last name</label>
@@ -32,8 +32,8 @@
                 <div>
             <br>
                 <label>Enter password</label>
-                <input type="password" name="password">
-                <div>
+                <input type= "password" name= "password" minlength="8">
+                <br>
 
                     <label>Select Gender</label>
                     <input type="radio" name="gender">male
@@ -53,7 +53,48 @@
 
 
                     </select>
-            </form>
+                    <div>
+
+                    </div>
+                    <label>select date of birth</label>
+                    <input type="date" name= "dateOfBirth" >
+                    <div>
+
+                    </div>
+
+                    <label>Enter mobile no</label>
+                    <input type="tel" name = "mobileNumber" placeholder = "+91 1234567890" required minlength="10">
+                    <div>
+
+                    </div>
+                    <label>Enter address</label>
+                    <textarea rows="1" cols="10"></textarea>
+                    <div>
+                        <br>
+                    </br>
+                    </div>
+                    <label>Select resume</label>
+                    <input type="file" name="upload">
+
+                        <div>
+                            
+                            <input type="reset" name="" id="">
+
+                        </div>
+                        <br>
+                    </br>
+                        <div>
+                            <button type="submit"> Submit</button>
+                        </div>
+
+                        <label>Select course</label>
+                        <input type= "checkbox">java\
+                        <input type="checkbox">Python
+                        <input type="checkbox">dotnet
+                        <div>
+
+                        </div>
+                    </form>
     
         </body>
     </html>
