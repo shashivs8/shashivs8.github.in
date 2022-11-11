@@ -1,0 +1,32 @@
+
+.box{
+
+padding: 10px 20px 30px  ;
+border: 8px solid blue;
+margin: 20px;
+background-color: gray;
+background-image: ;
+
+}
+.rect  {
+    border: 8px solid red;
+    padding: 10px 20px 30px;
+    margin: 20px;
+
+}
+
+.rect2{
+
+    border: 8px  solid rgb(200, 255, 192);
+    padding:10px 20px 30px;
+    margin:20px ;
+
+}
+
+.rect3{
+
+    border:8px solid palevioletred;
+    padding: 10px 20px 30px;
+    margin: 20px;
+   
+}
