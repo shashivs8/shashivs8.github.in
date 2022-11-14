@@ -1,0 +1,37 @@
+div p{
+    color: green;
+}
+p{
+color: brown;
+}
+div > p{
+    color: red;
+    
+    
+}
+div +p{
+    color: black
+}
+body{
+    background-image:url("flower.jpg") ;
+    ba
+}
+div ~p{
+    color: palevioletred ;
+}
+
+.static{
+    position:static;
+    color: blueviolet;
+}
+.relative{
+    position:relative;
+   color: pink;
+
+}
+.obsolute{
+    right: 200px;
+    top: 500px;
+    position: absolute;
+
+}
