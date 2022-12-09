@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("Introduction to javascript")
+        document.write("Introduction to javascript")
+        
+        document.write("<h1>Welcome to JavaStricpt</h1>")
+        document.write("<h2>Welcome to JavaStricpt</h2>")
+        document.write("<h3>Welcome to JavaStricpt</h3>")
+        document.write("<h4>Welcome to JavaStricpt</h4>")
+        document.write("<h5>Welcome to JavaStricpt</h5>")
+        document.write("<h6>Welcome to JavaStricpt</h6>")
+        document.write("<h6>Welcome to JavaStricpt</h6>")
+        document.write("<h5>Welcome to JavaStricpt</h5>")
+        document.write("<h4>Welcome to JavaStricpt</h4>")
+        document.write("<h3>Welcome to JavaStricpt</h3>")
+        document.write("<h2>Welcome to JavaStricpt</h2>")
+        document.write("<h1>Welcome to JavaStricpt</h1>")
+
+
+
+
+        alert("POPUP")
+      // let result = confirm("After the class u r not attending prsentation")
+
+      //  console.log(result)
+        let result = prompt("What is your name")
+        console.log(result)
+        document.write(result)
+
+        var a;
+        //var variableName
+         a="javascript" //initialisation
+         console.log(a)
+         console.log(typeof(a))
+
+         var b;
+         b=10;
+         console.log(b)
+
+         a=10;
+         console.log(a)
+         console.log(typeof(a))
+         a=true
+         console.log(a)
+
+         console.log(typeof(a))
+
+         let c
+         console.log(c)
+
+         var a;
+         console.log(a)
+
+
+         function display(){
+            console.log("Ëxecuting function in javaScript")
+           
+         }
+         display()
+
+        if(result== 'shashi'){
+       document.write('<br>' + result)
+
+         } else{
+         document.write('<br>' + "JavaScript")
+
+         }
+         
+         //pass argument to function in JS
+
+         function add(a,b){
+          console.log(a+b)
+         }
+         add(10,20)
+
+         function sub(a,b){
+          return a-b
+
+         }
+        let res = sub(20,10)
+       console.log(res)
+
+       //how to declare constatnt in JS
+
+       const pi=3.14
+       console.log(pi)
+         
+       //print Star pattern in JS
+       function starPattern(){
+       document.write("<br>")
+       for(let i=3;i>=1;i--){
+
+      for(let j=1;j<=i;j++){
+        document.write("*")
+      }
+       document.write("<br>")
+      }
+    }
+    
+         
+//event handling
+//oneclick , onmouseover
+
+    </script>
+</head>
+<body>
+    <!--button -->
+    <button onclick="starPattern()"> Print star pattern</button>
+    <button onmouseover="starPattern()">star patteren</button>
+
+</body>
+</html>

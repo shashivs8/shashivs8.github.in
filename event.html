@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+            function displayData(){
+                console.log("calling Display")
+                let message = document.getElementById("message")
+                console.log(message)
+                message.innerHTML="calling Display"
+                message.style.color = "red"
+            }
+            function details(){
+            console.log("callimg details")
+            let name = document.getElementById("name")
+            console.log(name)
+            console.log(name.value)
+            let details = document.getElementById("details")
+            details.innerHTML=name.value
+            }
+    </script>
+</head>
+<body>
+    <div id="message"></div>
+    <button onclick="displayData()">click on</button>
+    <form>
+        <div>
+            <label>Enter Name</label>
+            <input type="text" id="name">
+        </div>
+        <button onmouseover="details()">Submit</button>
+        <div id="details"> </div>
+    </form>
+
+    
+    
+</body>
+</html>
