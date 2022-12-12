@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addition(){
+
+            console.log("calling addition")
+            let num= document.getElementById("add")
+            console.log(num)
+            let num2= document.getElementById("add2")
+            console.log(num2)
+            console.log(num.value)
+            console.log(num2.value)
+            let result = parseInt(num.value) + parseInt(num2.value)
+            console.log(result)
+          
+
+            let  additionNo =  document.getElementById("addition")
+            additionNo.innerHTML = result
+            additionNo.style.color = 'green'
+        }
+    </script>
+</head>
+<body>
+    <form>
+
+        <div>
+            <label>Enter no</label>
+            <input type="text" id="add">
+        </div>
+        <div>
+            <label>Enter no</label>
+            <input type="text" id="add2">
+        </div>
+        <button type="button" onclick="addition()"> Add </button>
+        <div id="addition">  </div>
+
+    </form>
+</body>
+</html>
